@@ -98,6 +98,11 @@
 // console.log("The Modulus of 10 and 5 is: " + cal(10,5,'%'));
 // console.log("The Exponentiation of 10 and 5 is: " + cal(10,5,'**')); 
 
+
+
+// DAY 2
+
+
 //  let name="Divya";
 //  let age="25";
 //  console.log(`My name is ${name} and I am ${age} years old.`); //template literals ${} is called interpolation.
@@ -116,31 +121,55 @@
 
 //Dom manipulation in js
 
-console.log(document.body); //to access the document object
+// console.log(document.body); //to access the document object
 
-let Tadaa=document.getElementById("Tadaa"); //to access the element with id "Tadaa"
+// let Tadaa=document.getElementById("Tadaa"); //to access the element with id "Tadaa"
 
-Tadaa.innerText = "This is a fun class"; //to change the text of the element with id "Tadaa"
+// Tadaa.innerText = "This is a fun class"; //to change the text of the element with id "Tadaa"
 
-Tadaa.innerHTML = "<h1>This is a fun class</h1>"; //to change the html of the element with id "Tadaa"
+// Tadaa.innerHTML = "<h1>This is a fun class</h1>"; //to change the html of the element with id "Tadaa"
 
-let data=document.getElementsByClassName("data"); //to access the element with class "data"
+// let data=document.getElementsByClassName("data"); //to access the element with class "data"
 
-console.log(data); //to print the element with class "data"
+// console.log(data); //to print the element with class "data"
 
-let box=document.getElementsByClassName("box"); //to access the element with class "box"
+// let box=document.getElementsByClassName("box"); //to access the element with class "box"
 
-console.log(box); //to print the element with class "box"
+// console.log(box); //to print the element with class "box"
 
-let para=document.getElementsByClassName("para"); //to access the element with class "para"
+// let para=document.getElementsByClassName("para"); //to access the element with class "para"
 
-console.log(para); //to print the element with class "para"
+// console.log(para); //to print the element with class "para"
 
-box[0].innerText = "This is a box1"; //to change the text of the first element with class "box"
+// box[0].innerText = "This is a box1"; //to change the text of the first element with class "box"
 
-para[0].innerHTML = "<p>This is a paragraph tag</p>"; //to change the html of the first element with class "para"
+// para[0].innerHTML = "<p>This is a paragraph tag</p>"; //to change the html of the first element with class "para"
 
 
-let div=document.getElementsByTagName("div"); //to access the element with tag name "div"
+// let div=document.getElementsByTagName("div"); //to access the element with tag name "div"
 
-console.log(div); //to print the element with tag name "div"
+// console.log(div); //to print the element with tag name "div"
+
+
+//DAY 3
+//events
+
+const changeText = () => {
+    let display=document.getElementById("display");
+    //display.innerHTML= display.innerHTML==="HELLO"? "Bye" : "HELLO"; //to change the html of the element with id "display" when the button is clicked
+
+
+    if(display.innerHTML==="HELLO")
+    {
+        display.innerHTML="Bye";
+    }
+    else
+    {
+        display.innerHTML="HELLO";
+    }
+}; //to change the html of the element with id "display" when the button is clicked
+//onclick is an event that is triggered when the button is clicked
+
+
+
+
