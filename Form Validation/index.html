@@ -5,10 +5,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="">
-    <h3> INPUT FORM </h3>
-    ENTER USER NAME : <input type="text" name="uname"> <br><br>
-    ENTER PASSWORD : <input type="text" name="pass"> <br><br>
+<form onsubmit = "validateForm(event)">
+    <h3> LOGIN FORM </h3>
+    ENTER USER NAME : <input type="text" id="uname" name="uname" placeholder ="uname"> <br><br>
+    ENTER PASSWORD : <input type="text" id="password" name="pass" placeholder="password"> <br><br>
+
+    <p id="message"> </p>
     <input type="submit" value="Login">
 </form>
 <script src="./Script.js"></script>
