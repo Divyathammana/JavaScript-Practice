@@ -39,3 +39,7 @@ function changeImage()
 
 }
 
+
+// Stage changes: git add . (stages all modified files)
+// Commit changes: git commit -m "Your description here" (saves changes locally)
+// Push changes: git push (uploads them to GitHub)
